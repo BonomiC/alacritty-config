@@ -1,0 +1,35 @@
+[general]
+live_config_reload = true
+import = ["~/.config/alacritty/themes/themes/google.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "Full"
+dynamic_padding = false
+# opacity = 0.85
+
+[window.padding]
+x = 5
+y = 5
+
+[font]
+size = 11.0
+
+[font.bold]
+family = "Geist Mono Nerd Font"
+style = "Heavy"
+
+[font.bold_italic]
+family = "Geist Mono Nerd Font"
+style = "Heavy Italic"
+
+[font.italic]
+family = "Geist Mono Nerd Font"
+style = "Medium Italic"
+
+[font.normal]
+family = "Geist Mono Nerd Font"
+style = "Medium"
+
